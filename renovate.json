@@ -1,3 +1,17 @@
 {
-    "$schema": "https://docs.renovatebot.com/renovate-schema.json"
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "baseBranches": ["main", "/^release\\/.*/"]
+    "extends": [
+        ":preserveSemverRanges",
+        "group:all",
+        "schedule:monthly",
+        ":maintainLockFilesMonthly"
+    ],
+    "lockFileMaintenance": {
+        "commitMessageAction": "Update",
+        "extends": [
+            "group:all"
+        ]
+    },
+    "separateMajorMinor": false
 }
