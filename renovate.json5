@@ -4,8 +4,6 @@
     "extends": [
         ":preserveSemverRanges",
         "group:all",
-        "schedule:monthly",
-        ":maintainLockFilesMonthly"
     ],
     "lockFileMaintenance": {
         "commitMessageAction": "Update",
