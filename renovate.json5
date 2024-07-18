@@ -12,4 +12,10 @@
         ]
     },
     "separateMajorMinor": false,
+    "customManagers": [
+    {
+      "depNameTemplate": "go",
+      "datasourceTemplate": "golang-version",
+      "versioningTemplate": "go-mod-directive"
+    }],
 }
