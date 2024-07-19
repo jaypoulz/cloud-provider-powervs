@@ -15,7 +15,7 @@
     "packageRules": [
         {
             "matchDatasources": ["golang-version"],
-            "rangeStrategy": "bump"
+            "rangeStrategy": "replace"
         }
     ],
 }
