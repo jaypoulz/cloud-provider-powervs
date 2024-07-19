@@ -14,8 +14,8 @@
     "separateMajorMinor": false,
     "packageRules": [
         {
-             "matchDatasources": ["golang-version"],
-             "versioning": "go-mod-directive"
+            "matchDatasources": ["golang-version"],
+            "rangeStrategy": "bump"
         }
     ],
 }
