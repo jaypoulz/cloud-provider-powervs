@@ -12,13 +12,10 @@
         ]
     },
     "separateMajorMinor": false,
-    "customManagers": [
-    {
-        "fileMatch": [
-          "^go.mod$",
-        ],
-        "depNameTemplate": "go",
-        "datasourceTemplate": "golang-version",
-        "versioningTemplate": "go-mod-directive"
-    }],
+    "packageRules": [
+        {
+             "matchDatasources": ["golang-version"],
+             "versioning": "go-mod-directive"
+        }
+    ],
 }
