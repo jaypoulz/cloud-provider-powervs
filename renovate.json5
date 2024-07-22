@@ -3,13 +3,21 @@
     "baseBranches": ["main", "/^release-.*/"],
     "extends": [
         ":preserveSemverRanges",
-        "group:allNonMajor",
+        "group:all",
     ],
     "lockFileMaintenance": {
         "commitMessageAction": "Update",
         "extends": [
-            "group:allNonMajor"
+            "group:all"
         ]
     },
     "separateMajorMinor": false,
+    "packageRules" : [
+        {
+            "matchDatasources": ["golang-version"],
+            "matchUpdateTypes": [
+                "patch",
+            ],
+        },
+    ],
 }
