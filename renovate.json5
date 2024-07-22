@@ -3,12 +3,12 @@
     "baseBranches": ["main", "/^release-.*/"],
     "extends": [
         ":preserveSemverRanges",
-        "group:all",
+        "group:recommended",
     ],
     "lockFileMaintenance": {
         "commitMessageAction": "Update",
         "extends": [
-            "group:all"
+            "group:recommended"
         ]
     },
     "separateMajorMinor": false,
