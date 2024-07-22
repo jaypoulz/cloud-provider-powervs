@@ -2,7 +2,7 @@ module cloud.ibm.com/cloud-provider-ibm
 
 go 1.22
 
-toolchain go1.22.4
+toolchain go1.22.5
 
 require (
 	github.com/IBM-Cloud/power-go-client v1.7.0
