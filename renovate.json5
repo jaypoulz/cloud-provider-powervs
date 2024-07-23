@@ -9,6 +9,11 @@
         "go": "1.20"
     },
     "packageRules": [
+        {        
+            "matchDatasources": ["docker", "golang-version"],
+            "matchPackageNames": ["go", "golang"],
+            "allowedVersions": "<1.21.0",
+        },
         {
             "groupName": "all dependencies",
             "groupSlug": "all",
@@ -19,6 +24,12 @@
                 "go": "1.20"
             },
         },
+        {        
+            "matchDatasources": ["docker", "golang-version"],
+            "matchPackageNames": ["go", "golang"],
+            "allowedVersions": "<1.21.0",
+        },
+
     ],
     "separateMajorMinor": false,
     "constraints": {
