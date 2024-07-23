@@ -5,13 +5,19 @@
         "enabled": false,
         "commitMessageAction": "Update",
     },
+    "constraints": {
+        "go": "1.20"
+    },
     "packageRules": [
         {
             "groupName": "all dependencies",
             "groupSlug": "all",
             "matchPackagePatterns": [
                 "*"
-            ]
+            ],
+            "constraints": {
+                "go": "1.20"
+            },
         },
     "separateMajorMinor": false,
     "constraints": {
