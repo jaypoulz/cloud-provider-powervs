@@ -6,18 +6,6 @@
         "commitMessageAction": "Update",
     },
     "packageRules": [
-         {
-             "description": "Opt-out minimum Go version updates: https://github.com/renovatebot/renovate/issues/16715",
-             "matchDepTypes": ["golang", "go", "golang-version"],
-             "enabled": false
-        },
-        {
-            "matchDatasources": ["golang-version"],
-            "matchPackageNames": ["go", "golang"],
-            "matchUpdateTypes": [
-                "patch"
-            ],
-        },
         {
             "groupName": "all dependencies",
             "groupSlug": "all",
@@ -25,18 +13,8 @@
                 "*"
             ]
         },
-        {
-             "description": "Opt-out minimum Go version updates: https://github.com/renovatebot/renovate/issues/16715",
-             "matchDepTypes": ["golang", "go", "golang-version"],
-             "enabled": false
-        },
-        {
-            "matchDatasources": ["golang-version"],
-            "matchPackageNames": ["go", "golang"],
-            "matchUpdateTypes": [
-                "patch"
-            ],
-        },
-    ],
     "separateMajorMinor": false,
+    "constraints": {
+        "go": "1.20"
+    }
 }
