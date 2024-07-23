@@ -1,10 +1,6 @@
 {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "baseBranches": ["main", "/^release-.*/"],
-    "lockFileMaintenance": {
-        "enabled": false,
-        "commitMessageAction": "Update",
-    },
     "constraints": {
         "go": "1.20"
     },
@@ -25,15 +21,6 @@
             },
             "excludePackageNames": ["go", "golang"]
         },
-        {        
-            "matchDatasources": ["docker", "golang-version"],
-            "matchPackageNames": ["go", "golang"],
-            "allowedVersions": "<1.21.0",
-        },
-
     ],
     "separateMajorMinor": false,
-    "constraints": {
-        "go": "1.20"
-    }
 }
