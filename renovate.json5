@@ -8,7 +8,7 @@
     "packageRules": [
          {
              "description": "Opt-out minimum Go version updates: https://github.com/renovatebot/renovate/issues/16715",
-             "matchDepTypes": ["golang"],
+             "matchDepTypes": ["golang", "go", "golang-version"],
              "enabled": false
         },
         {
@@ -20,7 +20,7 @@
         },
         {
              "description": "Opt-out minimum Go version updates: https://github.com/renovatebot/renovate/issues/16715",
-             "matchDepTypes": ["golang"],
+             "matchDepTypes": ["golang", "go", "golang-version"],
              "enabled": false
         },
     ],
