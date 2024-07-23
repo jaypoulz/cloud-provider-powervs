@@ -19,7 +19,8 @@
             "constraints": {
                 "go": "1.20"
             },
-            "excludePackageNames": ["go", "golang"]
+            "excludePackageNames": ["go", "golang"],
+            "excludeDepNames": ["go", "golang"],
         },
     ],
     "separateMajorMinor": false,
