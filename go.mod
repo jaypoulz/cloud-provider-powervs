@@ -7,22 +7,22 @@ toolchain go1.22.4
 require (
 	github.com/IBM-Cloud/power-go-client v1.7.0
 	github.com/IBM/go-sdk-core/v5 v5.17.4
-	github.com/IBM/platform-services-go-sdk v0.64.2
-	github.com/IBM/vpc-go-sdk v0.53.0
+	github.com/IBM/platform-services-go-sdk v0.65.1
+	github.com/IBM/vpc-go-sdk v0.56.0
 	github.com/fsnotify/fsnotify v1.7.0
 	github.com/go-openapi/strfmt v0.23.0
 	github.com/spf13/cobra v1.8.1
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.9.0
 	gopkg.in/gcfg.v1 v1.2.3
-	k8s.io/api v0.29.6
-	k8s.io/apimachinery v0.29.6
-	k8s.io/client-go v0.29.6
-	k8s.io/cloud-provider v0.29.6
-	k8s.io/component-base v0.29.6
-	k8s.io/component-helpers v0.29.6
+	k8s.io/api v0.30.3
+	k8s.io/apimachinery v0.30.3
+	k8s.io/client-go v0.30.3
+	k8s.io/cloud-provider v0.30.3
+	k8s.io/component-base v0.30.3
+	k8s.io/component-helpers v0.30.3
 	k8s.io/klog/v2 v2.130.1
-	k8s.io/utils v0.0.0-20230726121419-3b25d923346b
+	k8s.io/utils 18e509b52bc8
 )
 
 require (
