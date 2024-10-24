@@ -3,24 +3,24 @@ module cloud.ibm.com/cloud-provider-ibm
 go 1.20
 
 require (
-	github.com/IBM-Cloud/power-go-client v1.5.4
-	github.com/IBM/go-sdk-core/v5 v5.15.0
-	github.com/IBM/platform-services-go-sdk v0.54.0
-	github.com/IBM/vpc-go-sdk v0.44.0
+	github.com/IBM-Cloud/power-go-client v1.8.3
+	github.com/IBM/go-sdk-core/v5 v5.18.1
+	github.com/IBM/platform-services-go-sdk v0.70.0
+	github.com/IBM/vpc-go-sdk v0.61.0
 	github.com/fsnotify/fsnotify v1.7.0
-	github.com/go-openapi/strfmt v0.21.7
-	github.com/spf13/cobra v1.8.0
+	github.com/go-openapi/strfmt v0.23.0
+	github.com/spf13/cobra v1.8.1
 	github.com/spf13/pflag v1.0.5
-	github.com/stretchr/testify v1.8.4
+	github.com/stretchr/testify v1.9.0
 	gopkg.in/gcfg.v1 v1.2.3
-	k8s.io/api v0.28.4
-	k8s.io/apimachinery v0.28.4
-	k8s.io/client-go v0.28.4
-	k8s.io/cloud-provider v0.28.4
-	k8s.io/component-base v0.28.4
-	k8s.io/component-helpers v0.28.4
-	k8s.io/klog/v2 v2.110.1
-	k8s.io/utils v0.0.0-20230726121419-3b25d923346b
+	k8s.io/api v0.31.2
+	k8s.io/apimachinery v0.31.2
+	k8s.io/client-go v0.31.2
+	k8s.io/cloud-provider v0.31.2
+	k8s.io/component-base v0.31.2
+	k8s.io/component-helpers v0.31.2
+	k8s.io/klog/v2 v2.130.1
+	k8s.io/utils 49e7df575cb6
 )
 
 require (
